@@ -42,10 +42,10 @@ function App() {
   }
 
   useEffect(() => {
+    generateItems()
     const interval = setInterval(() => {
       changeItemsPositions()
     }, 500)
-    generateItems()
 
     return () => {
       clearInterval(interval)
