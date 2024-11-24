@@ -6,6 +6,9 @@ export default function Index() {
       <Link to="/shuffle" className={'p-4 bg-gray-200 rounded-md'}>
         Shuffle Array items
       </Link>
+      <Link to="/deep-state-updates" className={'p-4 bg-gray-200 rounded-md'}>
+        Deep state updates
+      </Link>
     </div>
   )
 }
