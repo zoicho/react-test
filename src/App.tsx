@@ -62,7 +62,8 @@ function App() {
             style={{
               backgroundColor: `oklch(${item.color.l} ${item.color.c} ${item.color.h})`
             }}
-          />
+          >
+          </div>
         ))}
       </div>
     </>
