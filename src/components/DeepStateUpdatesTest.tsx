@@ -15,6 +15,7 @@ export default function DeepStateUpdatesTest() {
     if (iteration.current > 100) {
       iteration.current = 0
     }
+
     setItems((prevItems) => {
       const updatedItems = prevItems.map((item) => {
         if (item.items) {
