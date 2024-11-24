@@ -1,6 +1,6 @@
 import {useEffect, useState,useRef} from 'react'
 import {v4 as uuidv4} from 'uuid'
-import {getRandomNumber, shuffle} from './utils/utils.ts';
+import {getRandomNumber, shuffle} from './../utils/utils.ts';
 
 interface Item {
   id: string,
@@ -11,7 +11,7 @@ interface Item {
   },
 }
 
-function App() {
+export default function ShuffleTest() {
   const [items, setItems] = useState<Item[]>([])
   const itemsRef = useRef(items)
 
@@ -69,5 +69,3 @@ function App() {
     </>
   )
 }
-
-export default App
