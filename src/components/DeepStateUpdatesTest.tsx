@@ -42,7 +42,7 @@ export default function DeepStateUpdatesTest() {
 
     const interval = setInterval(() => {
       updateItems()
-    }, 200)
+    }, 100)
 
     return () => {
       clearInterval(interval)
