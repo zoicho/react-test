@@ -9,6 +9,9 @@ export default function Index() {
       <Link to="/deep-state-updates" className={'p-4 bg-gray-200 rounded-md'}>
         Deep state updates
       </Link>
+      <Link to="/map-updates" className={'p-4 bg-gray-200 rounded-md'}>
+        Map updates
+      </Link>
     </div>
   )
 }
