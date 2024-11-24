@@ -3,9 +3,9 @@ import {generateDeepItems} from './../utils/utils.ts'
 import type {DeepItem} from './../utils/utils.ts'
 
 
-export default function DeepStateUpdatesTest({itemsProp}: {itemsProp?: DeepItem[]}) {
+export default function DeepStateUpdatesTest() {
 
-  const [items, setItems] = useState<DeepItem[]>(itemsProp ?? generateDeepItems(5))
+  const [items, setItems] = useState<DeepItem[]>(generateDeepItems(5))
   const itemsRef = useRef(items)
 
   const iteration = useRef(0)

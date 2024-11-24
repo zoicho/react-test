@@ -12,7 +12,6 @@ export function shuffle(a: Array<any>) {
   return a;
 }
 
-
 export interface DeepItem {
   id: string,
   label: string,
